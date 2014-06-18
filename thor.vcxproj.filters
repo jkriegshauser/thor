@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{7341b705-fe86-40e9-af33-51e5722e10b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{f4ece352-3d11-4b5c-84a3-8478dd0f259a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{93dd9cda-9b9c-4c6d-a663-e1d94bb98263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{586fcf1b-64ee-4fb0-8fde-9155ba966072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Concurrency">
+      <UniqueIdentifier>{259d36a1-fdbb-4498-b138-9071356906ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\win">
+      <UniqueIdentifier>{85c1c9a5-c6d5-402d-9f21-b4b615c049fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem">
+      <UniqueIdentifier>{8211a6bb-0d12-4d5b-b78f-538c79d79a6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basetypes.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="freelist.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_funcs.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="heap.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="swap.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="temporary_buffer.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="typetraits.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pair.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deque.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="embedded_hash_multimap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="embedded_list.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_map.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_set.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="atomic_integer.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_string.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_counted.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="win\atomic_integer_win.inl">
+      <Filter>Internal\win</Filter>
+    </ClInclude>
+    <ClInclude Include="policy.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="win\interlocked_win.h">
+      <Filter>Internal\win</Filter>
+    </ClInclude>
+    <ClInclude Include="embedded_multimap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="named_mutex.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="math_util.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="named_semaphore.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="bitset.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_ptr.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_ptr.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="job_queue.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="strong_type.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="time_util.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="atomic_pointer.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_local.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="directory.h">
+      <Filter>Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_closer.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win\thread_base_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+    <None Include="win\mutex_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+    <None Include="win\named_mutex_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+    <None Include="win\semaphore_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+    <None Include="time_util.inl">
+      <Filter>Internal</Filter>
+    </None>
+    <None Include="win\thread_local_base_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+    <None Include="thread_local.inl">
+      <Filter>Internal</Filter>
+    </None>
+    <None Include="directory.inl">
+      <Filter>Internal</Filter>
+    </None>
+    <None Include="file.inl">
+      <Filter>Internal</Filter>
+    </None>
+    <None Include="win\directory_base_win.inl">
+      <Filter>Internal\win</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win\thread_impl_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\debug_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\system_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_string.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="win\mutex_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\named_mutex_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\semaphore_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\named_semaphore_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="win\time_util_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\thread_local_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\directory_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\file_win.cpp">
+      <Filter>Internal\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

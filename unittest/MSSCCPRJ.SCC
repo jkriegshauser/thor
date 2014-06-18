@@ -1,0 +1,13 @@
+SCC = This is a source code control file
+
+[unittest.sln]
+SCC_Aux_Path = "P4SCC#glados-print:1666##jkriegshauser##W7JKRIEGSHAUSER"
+SCC_Project_Name = Perforce Project
+
+[unittest.vcxproj]
+SCC_Aux_Path = "P4SCC#glados-print:1666##jkriegshauser##W7JKRIEGSHAUSER"
+SCC_Project_Name = Perforce Project
+
+[unittest.vcproj]
+SCC_Aux_Path = "P4SCC#glados-print:1666##jkriegshauser##W7JKRIEGSHAUSER"
+SCC_Project_Name = Perforce Project
